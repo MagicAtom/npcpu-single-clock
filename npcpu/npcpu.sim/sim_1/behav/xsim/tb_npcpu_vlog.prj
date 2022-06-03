@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../npcpu.srcs/sources_1/ip/MUX4T1_32_0/src/MUX4T1_32.v" \
+"../../../../npcpu.srcs/sources_1/ip/MUX4T1_32_0/sim/MUX4T1_32_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/PriorityEncoder_32/src/priority_encoder.v" \
+"../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/PriorityEncoder_32/sim/PriorityEncoder_32.v" \
+"../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/control_logic.v" \
+"../../../../npcpu.srcs/sources_1/ip/control_logic_0/sim/control_logic_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_store_0/src/MUX2T1_32_0/src/MUX2T1_32.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_store_0/src/MUX2T1_32_0/sim/MUX2T1_32_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_store_0/src/partial_store.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_store_0/sim/partial_store_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_load_0/src/partial_load.v" \
+"../../../../npcpu.srcs/sources_1/ip/partial_load_0/sim/partial_load_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/branch_comp_0/src/branch_comp.v" \
+"../../../../npcpu.srcs/sources_1/ip/branch_comp_0/sim/branch_comp_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/ImmGen_0/src/MUX8T1_32_0/src/MUX8T1_32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ImmGen_0/src/MUX8T1_32_0/sim/MUX8T1_32_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/ImmGen_0/src/ImmGen.v" \
+"../../../../npcpu.srcs/sources_1/ip/ImmGen_0/sim/ImmGen_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/MUX16T1_32_0/src/MUX16T1_32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/MUX16T1_32_0/sim/MUX16T1_32_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Adder32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Comparator.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Mul32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Sll32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Sra32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/Srl32.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/TopMul.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/src/ALU.v" \
+"../../../../npcpu.srcs/sources_1/ip/ALU_0_1/sim/ALU_0.v" \
+"../../../../npcpu.srcs/sources_1/ip/RegFiles/src/Reg.v" \
+"../../../../npcpu.srcs/sources_1/ip/RegFiles/sim/RegFiles.v" \
+"../../../../npcpu.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../npcpu.srcs/sources_1/new/npcpu.v" \
+"../../../../npcpu.srcs/sim_1/new/tb_npcpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+priority_encoder.v,verilog,xil_defaultlib,../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/PriorityEncoder_32/src/priority_encoder.v,
+PriorityEncoder_32.v,verilog,xil_defaultlib,../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/PriorityEncoder_32/sim/PriorityEncoder_32.v,
+dist_mem_gen_0.v,verilog,xil_defaultlib,../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/dist_mem_gen_0/sim/dist_mem_gen_0.v,
+control_logic.v,verilog,xil_defaultlib,../../../../npcpu.srcs/sources_1/ip/control_logic_0/src/control_logic.v,
+control_logic_0.v,verilog,xil_defaultlib,../../../../npcpu.srcs/sources_1/ip/control_logic_0/sim/control_logic_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
